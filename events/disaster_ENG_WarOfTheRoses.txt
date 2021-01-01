@@ -36,12 +36,9 @@ country_event = {
 
 		define_ruler = {
 			dynasty = Lancaster
-			ADM = 5
-			DIP = 5
-			MIL = 5
-			max_random_adm = 5
-			max_random_dip = 5
-			max_random_mil = 5
+			ADM = 3
+			DIP = 3
+			MIL = 3
 			age = 31
 		}
 		if = {
@@ -117,12 +114,9 @@ country_event = {
 		set_country_flag = supports_house_of_york
 		define_ruler = {
 			dynasty = York
-			ADM = 5
-			DIP = 5
-			MIL = 5
-			max_random_adm = 5
-			max_random_dip = 5
-			max_random_mil = 5
+			ADM = 3
+			DIP = 3
+			MIL = 3
 			age = 31
 		}
 		if = {
