@@ -1944,3 +1944,33 @@ merc_swiss_canton_mercenaries = {
 		discipline = 0.05
 	}
 }
+
+merc_mag_1 = {
+	regiments_per_development = 0.04
+	cavalry_weight = 0.4
+	home_province = 2461
+	sprites = { dlc058_mor_sprite_pack }
+	trigger = {
+		capital_scope = {region = maghreb_region}
+	}
+}
+merc_mag_2 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.3
+	home_province = 338
+	sprites = { dlc058_mor_sprite_pack }
+	trigger = {
+		capital_scope = {region = maghreb_region}
+	}
+}
+merc_mag_3 = {
+	regiments_per_development = 0.08
+	cavalry_weight = 0.2
+	home_province = 344
+	sprites = { dlc058_mor_sprite_pack }
+	trigger = {
+		capital_scope = {region = maghreb_region}
+	}
+}
+
+
