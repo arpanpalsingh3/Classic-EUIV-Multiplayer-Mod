@@ -16,7 +16,6 @@ country_decisions = {
 			HUN = {
 				exists = yes
 				ai = yes
-				was_player = no
 			}
 			OR = {
 			ai = no
@@ -109,18 +108,9 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = AHU }
-			HUN = {
-				NOT = { senior_union_with = HAB }
-				NOT = { junior_union_with = HAB }
-			}
 			OR = {
 				tag = HAB
 				tag = HUN
-			}
-			OR = {
-				ai = no
-				NOT = { exists = HAB }
-				NOT = { exists = HUN }
 			}
 		}
 		provinces_to_highlight = {

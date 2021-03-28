@@ -942,6 +942,7 @@ PGA = "countries/Perugia.txt"
 TTS = "countries/Two Sicilies.txt"
 FKN = "countries/Franconia.txt"
 SWA = "countries/Swabia.txt"
+SIA = "countries/Siam.txt"
 
 # ???
 JMN = "countries/Jan Mayen.txt"
