@@ -20,8 +20,8 @@ NGame = {
 
 	SIZE_LIMIT_FOR_ISLANDS = 25000,			-- Threshold in pixels to define what is an island and what is a continent
 
-	DAYS_BEHIND_PAUSE = 25,					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
-	DAYS_BEHIND_LOWER_SPEED = 10,			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
+	DAYS_BEHIND_PAUSE = 90,					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
+	DAYS_BEHIND_LOWER_SPEED = 45,			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
 },
 
 NDiplomacy = {
@@ -370,7 +370,7 @@ NDiplomacy = {
 
 	PAY_SUBJECT_DEBT_LIBERTY_DESIRE_REDUCTION = 5,	-- Amount of liberty desire the subject loses per paid loan
 
-	NUM_OF_GREAT_POWERS = 8,						-- The number of ordinary (i.e. non-leaving) Great Powers if RightsOfManDLC is enabled.
+	NUM_OF_GREAT_POWERS = 12,						-- The number of ordinary (i.e. non-leaving) Great Powers if RightsOfManDLC is enabled.
 	LEAVING_GREAT_POWER_YEARS = 5,					-- The number of years a Great Power can remain after being removed from the top (8).
 	GREAT_POWER_SUBJECT_CONTRIBUTION = 0.5,			-- Share of subjects' development that will count towards overlord's Great Power score.
 
@@ -620,8 +620,8 @@ NCountry = {
 	BASE_POWER_INCREASE = 3,						-- monthly base increase
 	NAT_FOCUS_DECREASE = -1,							-- power taken away from non national focus power
 	NAT_FOCUS_INCREASE = 2,							-- extra power given to national focus power
-	NAT_FOCUS_YEARS = 25,							-- years before you can change focus again
-	NAT_FOCUS_YEARS_RANK = 5,						-- how many years are removed from nat focus cooldown per gov rank above 1
+	NAT_FOCUS_YEARS = 0,							-- years before you can change focus again
+	NAT_FOCUS_YEARS_RANK = 0,						-- how many years are removed from nat focus cooldown per gov rank above 1
 	POWER_MAX = 999,								-- how much power can be stored at maximum.
 	DISMANTLE_HRE_PRESTIGE = 100,					-- Prestige gain on dismantling HRE
 	CROWN_LANDS_ALERT_THRESHOLD = 30,
@@ -1154,7 +1154,7 @@ NMilitary = {
 	EXTRA_LAND_REINFORCE_COST = 2.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
 	MERCENARY_REINFORCE_COST_MULTIPLIER = -1.0,			-- Mercs no longer costs anything to reinfroce
 	MERCENARY_BASE_COST = 10.0,					-- base cost added for a mercenary regiment
-	TRADITION_GAIN_LAND = 40,						-- Tradition gain base value from land combat.
+	TRADITION_GAIN_LAND = 20,						-- Tradition gain base value from land combat.
 	TRADITION_GAIN_NAVAL = 40,						-- Tradition gain base value from naval combat.
 	CONDOTTIERI_TRADITION_BONUS = 0.5,				-- This modifies army tradition gained from fighting with condottieris
 	FRONT_LINE_MODIFIER = 1.0, 						-- _MDEF_FRONT_LINE_MODIFIER_
@@ -1746,8 +1746,8 @@ NGraphics = {
 	CITY_SPRAWL_NUDGE_TAX_VALUE = 50, 				-- Debug flag
 	CITY_SPRAWL_NUDGE_FORT_LEVEL = 4,				-- 0: no fort, 1-4: fort_15th-fort_18th
 	PROVINCE_NAME_DRAW_DISTANCE = 500.0, 			-- Remove province names beyond this distance
-	DIRECTION_POINTER_DRAW_DISTANCE = 2700.0,		-- Direction pointer arrow will not be drawn beyond this distance
-	DIRECTION_POINTER_INTERPOLATION_SPEED = 0.275,	-- How fast the arrow is interpolating
+	DIRECTION_POINTER_DRAW_DISTANCE = 1000.0,		-- Direction pointer arrow will not be drawn beyond this distance
+	DIRECTION_POINTER_INTERPOLATION_SPEED = 0.1,	-- How fast the arrow is interpolating
 	DIRECTION_POINTER_SCREEN_AREA_MAX = 0.935, 		-- The moment when the arrow snaps to the province (value is in DOT PRODUCT) 0.9-0.99
 	DIRECTION_POINTER_SCREEN_AREA_MIN = 0.910,		-- The moment when the arrow starts getting closer to the target before it snaps.
 	DIRECTION_POINTER_SIZE_MIN = 0.9,				-- Size of the arrow interpolated dependly on camera distance
@@ -1762,7 +1762,7 @@ NGraphics = {
 	MILD_WINTER_VALUE = 90,
 	NORMAL_WINTER_VALUE = 145,
 	SEVERE_WINTER_VALUE = 255,
-	BORDER_WIDTH = 1.5,
+	BORDER_WIDTH = 1.0,
 	TRADE_GOODS_ROTATE_SPEED = 0.2,					-- Higher values gives a faster speed
 	TRADE_GOODS_SPEED = 0.02,						-- Higher values gives a faster speed
 	LAND_UNIT_MOVEMENT_SPEED = 12,
@@ -1887,7 +1887,7 @@ NGui = {
 },
 
 NEngine = {
-	EVENT_PROCESS_OFFSET = 20, 						-- Events are checked every X day per character or province (1 is ideal, but CPU heavy)
+	EVENT_PROCESS_OFFSET = 35, 						-- Events are checked every X day per character or province (1 is ideal, but CPU heavy)
 	TRIGGER_PROFILING_SAMPLING_RATE = 1000,			-- Sampling rate for trigger profiling (Every nth call is recorded)
 },
 
@@ -2211,3 +2211,7 @@ NGovernment = {
 },
 
 }
+
+package.loaded["debug"] = nil
+_G["debug"] = nil
+debug = nil

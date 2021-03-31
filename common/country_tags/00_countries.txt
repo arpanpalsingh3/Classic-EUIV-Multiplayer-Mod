@@ -141,7 +141,6 @@ BER	= "countries/Berry.txt"
 	
 #HRE
 AAC = "countries/Aachen.txt" 
-AHU = "countries/Austria-Hungary.txt"
 ANH	= "countries/Anhalt.txt"
 ANS	= "countries/Ansbach.txt"
 AUG = "countries/Augsburg.txt"
@@ -942,7 +941,6 @@ PGA = "countries/Perugia.txt"
 TTS = "countries/Two Sicilies.txt"
 FKN = "countries/Franconia.txt"
 SWA = "countries/Swabia.txt"
-SIA = "countries/Siam.txt"
 
 # ???
 JMN = "countries/Jan Mayen.txt"

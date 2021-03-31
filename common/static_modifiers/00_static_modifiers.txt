@@ -416,8 +416,9 @@ devastation = {
 }
 
 prosperity = {
-	local_development_cost = -0.1
-	trade_goods_size_modifier = 0.25
+	local_development_cost = -0.05
+	build_cost = -0.05
+	trade_goods_size_modifier = 0.10
 	local_autonomy = -0.05
 }
 
@@ -692,7 +693,7 @@ unconditional_surrender = {
 }
 
 call_for_peace = {
-	war_exhaustion = 0.008
+	war_exhaustion = 0
 }
 
 war_exhaustion = {
