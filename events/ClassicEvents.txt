@@ -1,0 +1,5 @@
+########################################
+# Custom events for the Classic Multiplayer mod
+#
+# by Avaritia
+########################################

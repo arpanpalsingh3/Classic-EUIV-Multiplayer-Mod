@@ -50,3 +50,6 @@
  austro_dominance_desc:0 "After years of fighting the Turkish menace, the Austria are built to handle the fires of war"
  hungarian_generals:0 "Hungarian Generals"
  hungarian_generals_desc:0 "Triditions of strong willed and disciplined generals brings for the best in men"
+ educate_monarch_title:0 "Educate Monarch"
+ educate_monarch_desc:0 "Knowledge is the key to power. We must utilize our resources to instruct our monarch further is the art of governance"
+ educate_monarch_tooltip:0 "So long as your ruler average is under 7, you may educate your ruler once per game"
