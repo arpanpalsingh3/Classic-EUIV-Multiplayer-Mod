@@ -1,0 +1,55 @@
+namespace = Ages_Splendor_Expanded_Events
+
+country_event = {
+	id = Ages_Splendor_Expanded_Events.1
+	title = Ages_Splendor_Expanded_Events.1.T
+	desc = Ages_Splendor_Expanded_Events.1.D
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	hidden = yes
+
+	trigger = {
+		has_country_flag = nationalistic_fervor_flag
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_province = {
+				if = {
+					limit = {
+						has_owner_culture = yes
+					}
+					if = {
+						limit = {
+							NOT = { has_province_modifier = ase_nationalistic_fervor_modifier }
+						}
+						add_province_modifier = {
+							name = ase_nationalistic_fervor_modifier
+							duration = -1
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = {
+							has_province_modifier = ase_nationalistic_fervor_modifier
+						}
+						remove_province_modifier = ase_nationalistic_fervor_modifier
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = Ages_Splendor_Expanded_Events.1.OPT1
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+

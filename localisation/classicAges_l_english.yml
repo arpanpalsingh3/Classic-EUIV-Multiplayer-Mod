@@ -1,0 +1,52 @@
+﻿l_english:
+ #Discovery
+ ase_build_fleet: "Build a Fleet"
+ ase_build_fleet_desc: "Has at least 6 Heavy Ships or 20 Light Ships"
+ ase_piles_gold: "Piles of Gold"
+ ase_piles_gold_desc: "Own at least 2 provinces producing Gold"
+
+ ase_glorious_renaissance: "Glorious Renaissance"
+ ase_hungary_defense: "Hungarian Defense"
+ classic_indian_expansion: "Indians expand"
+ classic_imperial_growth: "Imperial Centralization"
+ classic_mamluk: "Mercanary Contracts"
+
+ #Reformation
+ ase_strength_unity: "Strength in Unity"
+ ase_strength_unity_desc: "Have 100% Religious Unity"
+
+ classic_chinese_maintenance: "Chinese Maintenance"
+ ase_muslim_jihad: "Jihad"
+ ab_persia_court: "Persian Court"
+ classic_morroco_tolerance: "Andlusian Legacy"
+ 
+ #Absolutism
+ ase_stable_society: "Stable Society"
+ ase_stable_society_desc: "Have 3 Stability, over 90 Legitimacy and atleast -3 Unrest"
+
+ ase_strategic_warfare: "Strategic Warfare"
+ ase_imperial_control: "Imperial Control"
+ classic_ahu_general_staff: "Austria-Hungarian General Staff"
+ classic_ita_merc_dis: "Experienced Mercanaries"
+ 
+ #Revolution
+ ase_industrial_nation: "Industrial Nation"
+ ase_industrial_nation_desc: "Has 5 furnaces"
+ ase_join_revolution: "Join the Revolution"
+ ase_join_revolution_desc: "Have a revolutionary Goverment"
+
+ ase_universal_literacy: "Universal Literacy"
+ classic_hegemon: "Hegemonial Powerprojection"
+ classic_revolution: "Revolutionary Fervour"
+ ase_germany_industrialisation: "German Industrialisation"
+
+ #Triggered Modifier
+ splendor_triggered_modifier_1: "Court Splendor"
+ splendor_triggered_modifier_2: "Court Splendor"
+ splendor_triggered_modifier_3: "Ruinous Power"
+ ase_jihad_triggered_modifier: "Jihad"
+
+ #Tooltips
+ RULER_STAT_15_TOOLTIP: "Your Court Splendor is above 15"
+ muslim_jihad_tt: "Enables Jihad granting §G+10%§! §YMorale of Armies§! when at war with §RHeathens§! and §RHeretics§!"
+ ase_jihad_triggered_modifier_TT: "Has Age Ability: §YJihad§!"

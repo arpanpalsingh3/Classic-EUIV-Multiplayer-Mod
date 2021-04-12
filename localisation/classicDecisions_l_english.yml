@@ -1,0 +1,13 @@
+﻿l_english:
+#Austria-Hungary
+ austrian_union_title:0 "Form Austria-Hungary Diplomatically"
+ austrian_union_desc:0 "Finally, after years of ruling the over the Hungarians, the Austrians shall unionize as one nation with them"
+ austria_hungary_enforced_title:0 "Form Austria-Hungary Militarily"
+ austria_hungary_enforced_desc:0 "Through blood and war, the Austro-Hungarian union shall be formed!"
+#National Stats
+ nationalStatistics_title:0 "Show My National Statistics"
+ nationalStatistics_desc:0 "Show my national statistics."
+#Educate Monarch
+ educate_monarch_title:0 "Educate Monarch"
+ educate_monarch_desc:0 "Knowledge is the key to power. We must utilize our resources to instruct our monarch further is the art of governance"
+ educate_monarch_tooltip:0 "So long as your ruler average is under 10 and all stats are under 6, you may educate one ruler during the game"

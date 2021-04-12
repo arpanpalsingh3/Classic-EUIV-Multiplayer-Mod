@@ -1,0 +1,104 @@
+spriteTypes = {
+	#Discovery
+	spriteType = {
+		name = "GFX_ase_build_fleet"
+		texturefile = "gfx/interface/ages/ase_build_fleet.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_piles_gold"
+		texturefile = "gfx/interface/ages/ase_piles_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_glorious_renaissance"
+		texturefile = "gfx/interface/ages/ase_glorious_renaissance.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_hungary_defense"
+		texturefile = "gfx/interface/ages/ase_hungary_defense.dds"
+	}
+	spriteType = {
+	     name = "GFX_classic_indian_expansion"
+		 texturefile = "gfx/interface/ages/classic_indian_core.dds"
+	}
+	
+	spriteType = {
+	     name = "GFX_classic_imperial_growth"
+		 texturefile = "gfx/interface/ages/classic_imperial_growth.dds"
+    }
+	
+	spriteType = {
+	     name = "GFX_classic_mamluk"
+		 texturefile = "gfx/interface/ages/classic_cavalry_cost.dds"
+    }
+	#Reformation
+	spriteType = {
+		name = "GFX_ase_strength_unity"
+		texturefile = "gfx/interface/ages/ase_strength_unity.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_muslim_jihad"
+		texturefile = "gfx/interface/ages/ase_muslim_jihad.dds"
+	}
+	spriteType = {
+	    name = "GFX_ab_persia_court"
+		texturefile = "gfx/interface/ages/ab_persia_court.dds"
+	}
+	spriteType = {
+	    name = "GFX_classic_morroco_tolerance"
+		texturefile = "gfx/interface/ages/classic_morroco_tolerance.dds"
+	}
+	spriteType = {
+	    name = "GFX_classic_chinese_maintenance"
+		texturefile = "gfx/interface/ages/classic_chinese_maintenance.dds"
+	}
+	#Absolutism
+	spriteType = {
+		name = "GFX_ase_stable_society"
+		texturefile = "gfx/interface/ages/ase_stable_society.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_strategic_warfare"
+		texturefile = "gfx/interface/ages/ase_strategic_warfare.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_imperial_control"
+		texturefile = "gfx/interface/ages/ase_imperial_control.dds"
+	}
+	spriteType = {
+		name = "GFX_classic_ahu_general_staff"
+		texturefile = "gfx/interface/ages/classic_ahu_general_staff.dds"
+	}
+	spriteType = {
+		name = "GFX_classic_ahu_general_staff"
+		texturefile = "gfx/interface/ages/classic_ahu_general_staff.dds"
+	}
+	spriteType = {
+		name = "GFX_classic_ita_merc_dis"
+		texturefile = "gfx/interface/ages/classic_ita_merc_dis.dds"
+	}
+	#Revolution
+	spriteType = {
+		name = "GFX_ase_industrial_nation"
+		texturefile = "gfx/interface/ages/ase_industrial_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_join_revolution"
+		texturefile = "gfx/interface/ages/ase_join_revolution.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_universal_literacy"
+		texturefile = "gfx/interface/ages/ase_universal_literacy.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_germany_industrialisation"
+		texturefile = "gfx/interface/ages/ase_germany_industrialisation.dds"
+	}
+	spriteType = {
+	    name = "GFX_classic_hegemon"
+		texturefile = "gfx/interface/ages/classic_hegemon.dds"
+	}
+	spriteType = {
+	    name = "GFX_classic_revolution"
+		texturefile = "gfx/interface/ages/classic_revolution.dds"
+	}
+}

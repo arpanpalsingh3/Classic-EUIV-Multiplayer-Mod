@@ -1117,7 +1117,7 @@ POL_ideas = {
 		production_efficiency = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
+		cavalry_power = 0.20
 	}
 	peichota_wybraniecka = {
 		global_manpower_modifier = 0.25
@@ -2621,26 +2621,26 @@ LIT_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	warlord_dukes = {
-		leader_land_shock = 1
+	lithuanian_hussars = {
+		cavalry_power = 0.2
 	}
 	auksine_laisve = {
-		stability_cost_modifier = -0.1
+		cavalry_cost = -0.10
 	}
 	magdeburg_laws = {
 		global_tax_modifier = 0.1
 	}
 	magnate_estates = {
-		production_efficiency = 0.1
+		technology_cost = -0.05
 	}
-	lithuanian_hussars = {
-		cavalry_power = 0.2
+	warlord_dukes = {
+		leader_land_shock = 1
 	}
 	statutes_of_lithuania = {
 		global_unrest = -2
 	}
 	lithuanian_renaissance = {
-		technology_cost = -0.05
+		production_efficiency = 0.1
 	}
 }
 

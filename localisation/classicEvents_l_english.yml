@@ -1,0 +1,5 @@
+﻿l_english:
+#National Stats
+ classic_nationalstats.title:0 "National Statistics"
+ classic_nationalstats.a:0 "Thanks for the information!"
+ classic_nationalstats.desc:0 "Welcome great [Root.Monarch.GetTitle] [Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName]. The following are the statistics relating to the development of our great nation along with details about our military leaders.\n\nWe have increased the £adm£ development of provinces a total of §Y[Root.timesDevelopedAdmin.GetValue]§! times.\nWe have increased the £dip£ development of provinces a total of §Y[Root.timesDevelopedDiplo.GetValue]§! times.\nWe have increased the £mil£ development of provinces a total of §Y[Root.timesDevelopedMil.GetValue]§! times.\nIn total, we have developed our mighty nation §Y[Root.totalTimesDeveloped.GetValue]§! times!\n\nWe have been blessed with §Y[Root.numGenerals.GetValue]§! powerful generals and §Y[Root.numAdmirals.GetValue]§! admirals, for a total of §Y[Root.numLeaders.GetValue]§! leaders.\n\nAlas, our enemies grow too. Still, we fear not, as we know you will lead us to prosprity great [Root.Monarch.GetTitle] [Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName]"

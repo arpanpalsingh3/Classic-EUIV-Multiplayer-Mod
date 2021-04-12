@@ -730,7 +730,7 @@ great_peasants_war_concessions_triggered_modifier = {
 # Pope is in the empire
 ######################################
 
-(REMOVED)
+#(REMOVED)
 
 ######################################
 # The Italian Wars

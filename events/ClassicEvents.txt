@@ -3,3 +3,17 @@
 #
 # by Avaritia
 ########################################
+
+# National Statistics - Shows the collected and tracked stats of a specific nation.
+country_event = {
+    id = classic_nationalstats
+    title = classic_nationalstats.title
+	desc = classic_nationalstats.desc
+    picture = Numenera
+
+    is_triggered_only = yes
+
+    option = {
+        name = "classic_nationalstats.a"
+    }
+}

@@ -1,0 +1,27 @@
+#swiss_missions_6 = {
+#    slot = 1
+#   generic = no
+#    ai = no
+#    potential_on_load = {
+#        has_dlc = "Emperor"
+#    }
+#    potential = {
+#        tag = SWI
+#        NOT = { map_setup = map_setup_random }
+#        has_dlc = "Emperor"
+#    }
+#   has_country_shield = yes
+#   emp_swi_kingdom = {
+#		position = 1
+#        icon = join_the_reformation
+#        required_missions = { }
+#        provinces_to_highlight = {
+#        }
+#        trigger = {
+#            total_development = 300
+#        }
+#        effect = {
+#            advisor_cost = -0.25
+#        }
+#    }
+#}

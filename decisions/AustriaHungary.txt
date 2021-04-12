@@ -42,8 +42,6 @@ country_decisions = {
 			}
 		}
 		allow = {
-			HUN = { is_player = no }
-			
 			adm_tech = 10
 			is_subject = no
 			is_nomad = no
@@ -52,11 +50,19 @@ country_decisions = {
 			owns_core_province = 73					# Inntal
 			owns_core_province = 134				# Wein
 			owns_core_province = 1770				# Manhartsberg
-			
+			OR = {
+				HUN = {owns_core_province = 153	}# Pest
+				HAB = {owns_core_province = 153	}# Pest
+			}
+			OR = {
+				HUN = {owns_core_province = 154	}# Hont
+				HAB = {owns_core_province = 154	}# Hont
+			}
+			OR = {
+				HUN = {owns_core_province = 157	}# Bihar
+				HAB = {owns_core_province = 157	}# Bihar
+			}
 			HUN = { 
-				owns_core_province = 153					# Pest
-				owns_core_province = 154					# Hont
-				owns_core_province = 157					# Bihar
 				NOT = { num_of_cities = 32 } #Keep this number the same as in potential.
 			}
 			

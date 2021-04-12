@@ -1,0 +1,3 @@
+ase_nationalistic_fervor_modifier = {
+	local_manpower_modifier = 0.25
+}

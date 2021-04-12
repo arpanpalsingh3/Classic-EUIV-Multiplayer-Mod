@@ -2,7 +2,6 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-elector = yes
 primary_culture = lower_saxon
 religion = catholic
 capital = 57 # Brunswick
