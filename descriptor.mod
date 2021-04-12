@@ -1,7 +1,13 @@
-version="1.0"
+version="2.0"
 tags={
 	"Gameplay"
 	"Balance"
+	"New Nations"
+	"Religion"
+	"National Ideas"
+	"Loading Screen"
+	"Missions And Decisions"
+	"Map"
 }
 name="Classic Discord MP Mod"
 picture="thumbnail.png"
