@@ -441,8 +441,8 @@ NCountry = {
 	SHOGUN_INTERACTIONS_LEGITIMACY = -20,
 	GOLDEN_ERA_YEARS = 50,
 	SPLENDOR_ABILITY_COST = 800,
-	PROSPERITY_MONTHLY_DECLINE = -2,				-- monthly tick
-	PROSPERITY_INCREASE_SIZE= 1,				-- if diceroll of d20< monarch stat, while possible ot increase
+	PROSPERITY_MONTHLY_DECLINE = -3,				-- monthly tick
+	PROSPERITY_INCREASE_SIZE= 0.5,				-- if diceroll of d20< monarch stat, while possible ot increase
 	CORRUPTION_FROM_BANNERS = 5,
 
 
@@ -1068,8 +1068,8 @@ NMilitary = {
 	SAILOR_MAINTAINANCE = 0.02,		-- of build cost.
 	BANNER_DISCIPLINE_BONUS = 0.10,
 	BANNER_MANPOWER_USAGE = 0.25,
-	BANNER_REINFORCE_SPEED = -0.5,
-	BANNER_MAINTENANCE_COST = 0.5,
+	BANNER_REINFORCE_SPEED = 0,
+	BANNER_MAINTENANCE_COST = 0.75,
 	BANNER_AGE_MULTIPLIER = 0.50,
 	BANNER_STARTING_STRENGTH = 1.0,					-- Starting strength of a banner regiment, 1.0 being full strength
 	FORT_DEVASTATION_IMPACT = -10,					-- multiplied by fortlevel/max fortlevel in area per year.

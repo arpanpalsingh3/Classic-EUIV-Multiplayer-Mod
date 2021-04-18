@@ -79,6 +79,7 @@ feudalism = {
 					province_id = 2329
 					province_id = 2331
 					province_id = 2999
+					province_id = 1075
 				}
 			}
 			AND = {

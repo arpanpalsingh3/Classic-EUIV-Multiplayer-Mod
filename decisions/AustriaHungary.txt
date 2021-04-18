@@ -152,6 +152,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = AHU
+			swap_non_generic_missions = yes
 			if = {
 				limit = { NOT = { accepted_culture = hungarian } }
 				add_accepted_culture = hungarian

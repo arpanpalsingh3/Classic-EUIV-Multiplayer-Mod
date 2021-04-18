@@ -221,9 +221,9 @@ superior_supply_system = {
 	}
 }
 
-
+## WAS PREVIOUSLY MIL
 modern_siege_weapons = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = innovativeness_ideas

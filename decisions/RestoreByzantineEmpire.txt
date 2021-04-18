@@ -16,7 +16,7 @@ country_decisions = {
 			NOT = { tag = ROM }
 			NOT = { tag = TUR }
 			OR = {
-                                tag = HUN
+                tag = HUN
 				primary_culture = greek
 				primary_culture = pontic_greek
 				AND = {

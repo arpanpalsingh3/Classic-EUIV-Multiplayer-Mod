@@ -2381,7 +2381,7 @@ inner_asian_trade = {
 }
 
 mch_combat_modifier = {
-	shock_damage = 0.1
+	army_tradition_from_battle = 0.5
 }
 
 # Mongol missions

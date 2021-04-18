@@ -49,8 +49,13 @@ estate_cossacks = {
 		is_nomad = no
 		is_colonial_nation = no
 		NOT = { has_reform = celestial_empire }
-		unit_type = eastern
-		religion_group = christian
+		OR = {
+			AND = {
+				unit_type = eastern
+				religion_group = christian
+			}
+			has_country_flag = bukharan_nation # Allows Bukhara to have Cossacks
+		}
 		NOT = { has_reform = revolutionary_empire_reform }
 		OR = {
 			has_estate = estate_cossacks

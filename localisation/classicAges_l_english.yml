@@ -1,9 +1,9 @@
 ﻿l_english:
  #Discovery
  ase_build_fleet: "Build a Fleet"
- ase_build_fleet_desc: "Has at least 6 Heavy Ships or 20 Light Ships"
- ase_piles_gold: "Piles of Gold"
- ase_piles_gold_desc: "Own at least 2 provinces producing Gold"
+ ase_build_fleet_desc: "Has at least 5 Heavy Ships, 10 Galleys or 10 Light Ships"
+ ase_piles_gold: "Build Churches"
+ ase_piles_gold_desc: "Have at least 10 Churches"
 
  ase_glorious_renaissance: "Glorious Renaissance"
  ase_hungary_defense: "Hungarian Defense"
@@ -23,6 +23,7 @@
  #Absolutism
  ase_stable_society: "Stable Society"
  ase_stable_society_desc: "Have 3 Stability, over 90 Legitimacy and atleast -3 Unrest"
+ obj_emperor_of_china_desc: "Be an Empire in China"
 
  ase_strategic_warfare: "Strategic Warfare"
  ase_imperial_control: "Imperial Control"

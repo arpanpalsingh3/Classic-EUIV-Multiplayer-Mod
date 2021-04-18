@@ -285,7 +285,8 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		recover_army_morale_speed = 0.05
+		drill_gain_modifier = 0.20
+		drill_decay_modifier = -0.20
 	}
 
 	bayonet_leaders = {
@@ -301,10 +302,11 @@ offensive_ideas = {
 		army_tradition_from_battle = 1.0
 	}
 	engineer_corps = {
-		siege_ability = 0.20
+		siege_ability = 0.25
 	}
 	grand_army = {
-		land_forcelimit_modifier = 0.2
+		land_forcelimit_modifier = 0.25
+		global_manpower_modifier = 0.20
 	}
 	napoleonic_warfare = {
 		discipline = 0.05

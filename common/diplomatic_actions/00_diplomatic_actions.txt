@@ -95,6 +95,21 @@ declarewar = {
 			always = no
 		}
 	}
+	## 	Ashikaga is unable to declare on Korea 
+	condition = {
+		potential = {
+			ROOT = {
+				tag = ASK
+			}
+		}
+		allow = {
+			FROM = {
+				NOT = {
+					tag = KOR
+				}
+			}
+		}
+	}
 }
 
 
